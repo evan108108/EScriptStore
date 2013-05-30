@@ -23,7 +23,7 @@ Yii Module &amp; Widget that registers inline JS and CSS as an external file.
 	…,
 ```
 
-##Example
+##Examples
 
 1. Register Inline JS as external script. The code bellow will register a script include to the head of your document.
 

@@ -28,15 +28,13 @@ Yii Module &amp; Widget that registers inline JS and CSS as external file.
 1. Register Inline JS as external script. The code bellow will register a script include to the head of your document.
 
 ```html
-<?php $this->beginWidget('EJSscript', array(
-));  ?>
+<?php $this->beginWidget('EJSscript');  ?>
 	var x = 100;
 <?php $this->endWidget(); ?>
 
 <h1>Some Heading</h2>
 
-<?php $this->beginWidget('EJSscript', array(
-));  ?>
+<?php $this->beginWidget('EJSscript');  ?>
 	alert(x);
 <?php $this->endWidget(); ?>
 ```
@@ -45,14 +43,12 @@ Yii Module &amp; Widget that registers inline JS and CSS as external file.
 
 
 ```html
-<?php $this->beginWidget('ECSSscript', array(
-));  ?>
+<?php $this->beginWidget('ECSSscript');  ?>
 	.someClass: {width:100px;}
 	.someOther: {width:200px;}
 <?php $this->endWidget(); ?>
 
-<?php $this->beginWidget('ECSSscript', array(
-));  ?>
+<?php $this->beginWidget('ECSSscript');  ?>
 	.someClassTwo: {width:101px;}
 	.someOtherThree: {width:201px;}
 <?php $this->endWidget(); ?>

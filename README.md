@@ -1,7 +1,7 @@
 EScriptStore
 ============
 
-Yii Module &amp; Widget that registers inline JS and CSS as external file.
+Yii Module &amp; Widget that registers inline JS and CSS as an external file.
 
 
 ##install
